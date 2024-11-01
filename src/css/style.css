@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-image:  radial-gradient(circle, rgb(238, 190, 211) 0%, rgb(169, 203, 241) 100%);
+    color: black;
+    border-bottom: 2px solid rgb(248, 148, 192);
+}
+
+@media screen and (max-width:768px) {
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.header__lista{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.header__elementoLista{
+ margin: 0 1.3rem;
+}
+
+.header__navegacion{
+    display: flex;
+    align-items: center;
+}
+
+.seccionInicio{
+
+    background-image: url('fondo.webp');
+    height: 100vh;
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
